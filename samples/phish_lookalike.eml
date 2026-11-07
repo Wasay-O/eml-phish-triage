@@ -1,0 +1,26 @@
+From: "IT Helpdesk" <helpdesk@micr0soft.test>
+To: employee@example.com
+Subject: Urgent: verify your account within 24 hours
+Date: Mon, 02 Mar 2026 09:14:00 +0000
+Message-ID: <phish-001@micr0soft.test>
+Reply-To: collect@example.net
+Return-Path: <bounce@mailer.example.net>
+Authentication-Results: mx.example.com; spf=fail smtp.mailfrom=micr0soft.test; dkim=none; dmarc=fail header.from=micr0soft.test
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="MIXED-BOUNDARY"
+
+--MIXED-BOUNDARY
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<p>Your password expires today. Please
+<a href="http://203.0.113.45/login">https://portal.microsoft.com/verify</a>
+to keep access to your mailbox.</p>
+</body></html>
+--MIXED-BOUNDARY
+Content-Type: application/vnd.ms-excel
+Content-Disposition: attachment; filename="Invoice_March.xlsm"
+Content-Transfer-Encoding: base64
+
+UEsDBBQAAAAIAA==
+--MIXED-BOUNDARY--

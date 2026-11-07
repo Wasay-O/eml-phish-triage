@@ -1,0 +1,20 @@
+From: "Billing" <billing@microsoft-support.test>
+To: finance@example.com
+Subject: Invoice attached
+Date: Tue, 03 Mar 2026 14:22:00 +0000
+Message-ID: <phish-002@microsoft-support.test>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="MIXED-2"
+
+--MIXED-2
+Content-Type: text/plain; charset="utf-8"
+
+Please see the attached invoice and let us know if anything looks wrong.
+
+--MIXED-2
+Content-Type: application/octet-stream
+Content-Disposition: attachment; filename="Invoice.pdf.exe"
+Content-Transfer-Encoding: base64
+
+TVqQAAMAAAAEAAAA
+--MIXED-2--

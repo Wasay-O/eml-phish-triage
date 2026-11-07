@@ -1,0 +1,30 @@
+From: "Example Weekly" <news@example.org>
+To: reader@example.com
+Subject: This week in security basics
+Date: Mon, 02 Mar 2026 08:00:00 +0000
+Message-ID: <weekly-042@example.org>
+Return-Path: <news@example.org>
+Reply-To: news@example.org
+Authentication-Results: mx.example.com; spf=pass smtp.mailfrom=example.org; dkim=pass header.d=example.org; dmarc=pass header.from=example.org
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="ALT-BOUNDARY"
+
+--ALT-BOUNDARY
+Content-Type: text/plain; charset="utf-8"
+
+Hi there,
+
+Here are this week's posts on password managers and MFA rollouts.
+Read the full edition at https://example.org/blog
+
+Thanks for reading.
+--ALT-BOUNDARY
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<p>Hi there,</p>
+<p>Here are this week's posts on password managers and MFA rollouts.
+Read the full edition at <a href="https://example.org/blog">https://example.org/blog</a></p>
+<p>Thanks for reading.</p>
+</body></html>
+--ALT-BOUNDARY--
